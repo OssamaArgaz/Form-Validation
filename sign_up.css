@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #222;
+}
+input,
+button{
+    border: none;
+    outline: none;
+}
+
+
+
+
+.signup-container{
+    height: 100vh;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.signup-img{
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    padding: 160px 20px;
+    background-image: url(./img/collage-d-arriere-plan-de-programmation.jpg);
+    background-size: cover;
+}
+
+
+.signup{
+    padding: 30px 55px;
+}
+.signup-top{
+    font-size: 14px;
+}
+
+
+.signup-form form input{
+    font-size: 14px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(243, 100, 28);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.password-eye{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 37px;
+}
+.password-eye:hover{
+    cursor: pointer;
+}
+.forget-password{
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.submit-button button{
+    padding: 10px 60px;
+    background-color: rgb(243, 100, 28);
+    color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

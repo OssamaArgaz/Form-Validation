@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./sign_up.css">
+</head>
+<body>
+    
+    <div class="signup-container">
+        <div class="content d-flex">
+            <div class="signup-img">
+                <h1 class="signup-img-title">Code with us</h1>
+                <p class="signup-img-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem illo corporis, vel delectus incidunt eius mollitia quisquam asperiores. Optio vero similique, voluptate suscipit iure laudantium adipisci perferendis veniam dignissimos!</p>
+            </div>
+            <div class="signup w-50">
+                <div class="signup-top text-end">
+                    <p>Already have an account? <a href="#">Sign in</a></p>
+                </div>
+                <div class="signup-form pt-4">
+                    <h2 class="pb-4">Sign up</h2>
+                    <form action="" method="post" id="signUpForm">
+                        <div class="username d-flex flex-column">
+                            <label for="">Username :</label>
+                            <input type="text" name="name" id="name" placeholder="Enter your Name">
+                        </div>
+                        <div class="email d-flex flex-column">
+                            <label for="">Email :</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your Email">
+                        </div>
+                        <div class="password position-relative d-flex flex-column">
+                            <label for="">Password :</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your Password">
+                            <img class="password-eye" src="./img/eye.png" onclick="showPassword(this)" alt="password">
+                        </div>
+                        <div class="Confirm-password position-relative d-flex flex-column">
+                            <label for="">Confirm Password :</label>
+                            <input type="password" name="Confirm-password" id="Confirm-password" placeholder="Confirm your Password">
+                            <img class="password-eye" src="./img/eye.png" onclick="showPassword(this)" alt="password">
+                        </div>
+                        <div class="submit-button mt-4">
+                            <button type="submit">Sign up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./plugins/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./sign_up.js"></script>
+</body>
+</html>
