@@ -8,7 +8,7 @@ function showPassword(element){
     }
 }
 
-document.getElementById('signUpForm').addEventListener('input',
+document.getElementById('Confirm-password').addEventListener('input',
     function(){
         
         password = document.querySelector('#password');
