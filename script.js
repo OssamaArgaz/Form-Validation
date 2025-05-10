@@ -18,5 +18,9 @@ document.getElementById('Confirm-password').addEventListener('input',
         }else{
             ConfirmPassword.style.border = '2px solid green';
         }
+
+        if(!ConfirmPassword.value){
+            ConfirmPassword.style.border =  '1px solid rgb(243, 100, 28)';
+        }
     }
 )
